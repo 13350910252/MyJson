@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             jsonObject.put("two","two");
             JSONArray jsonArray = new JSONArray();
             jsonArray.put(jsonObject.toString());
-            
+
             JSONObject jsonObject1 = new JSONObject();
             jsonObject1.put("message",jsonArray.toJSONObject(jsonArray));//转换的string中\少
 //            jsonObject1.put("root",jsonArray.toString());//转换的string中\多
